@@ -1,0 +1,8 @@
+niezbedne zalezonosci do tworzenia aplikacji:
+
+zaintsalowac thrifta dla pythona:
+cd $DIR_TO_THRIFT/thrift/lib/py
+sudo python setup.py install
+
+po zmianie (serwisow) zawsze nalezy wygenerowac gen-py
+thrift -gen py plik.thrift

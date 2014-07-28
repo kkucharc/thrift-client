@@ -1,0 +1,28 @@
+
+### dodawanie
+./client.py add pierwszy file1
+./client.py ls pierwszy
+cat file1
+ls ~/tmp/RSO
+ls ~/tmp/RSO/pierwszy
+cat ~/tmp/RSO/pierwszy/file1
+./client.py add pierwszy file2
+./client.py ls pierwszy
+
+### przenoszenie
+./client.py mv pierwszy/file1 drugi/file1
+./client.py ls drugi
+ls ~/tmp/RSO/
+ls ~/tmp/RSO/drugi
+cat ~/tmp/RSO/drugi/file1
+
+### usuwanie
+./client.py rm pierwszy/file2
+ls ~/tmp/RSO/pierwszy
+ls ~/tmp/RSO/pierwszy
+
+### sciaganie
+./client.py add 1 file1
+./client.py ls 1
+rm file1
+./client.py get 1/file1
